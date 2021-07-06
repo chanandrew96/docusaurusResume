@@ -11,7 +11,7 @@ module.exports = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "Andrew Chan", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  projectName: "docusaurusResume", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "Andrew Chan's Site",
@@ -34,7 +34,7 @@ module.exports = {
             },
             {
               label: "Project Experience",
-              href: "/docs/project-experience/0-projects"
+              href: "/docs/project-experience/n0-projects"
             }
           ]
         },
@@ -44,7 +44,8 @@ module.exports = {
           items: [
             {
               label: "BoC",
-              href: "/docs/project-experience/1-boc"
+              href: "/docs/project-experience/boc"
+              // doc: "boc"
             }
           ]
         },
@@ -68,7 +69,7 @@ module.exports = {
             },
             {
               label: "Project",
-              to: "/docs/project-experience/0-projects"
+              to: "/docs/project-experience/n0-projects"
             }
           ]
         },

@@ -33,3 +33,13 @@ npx docusaurus start
 Your site starts at `http://localhost:3000`.
 
 Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+
+```Reference Website
+https://gist.github.com/rxaviers/7360908
+
+https://docusaurus.io/docs/next/api/plugins/@docusaurus/plugin-content-docs#markdown-frontmatter
+
+Site Config (v1)
+https://v1.docusaurus.io/docs/en/site-config
+
+```
