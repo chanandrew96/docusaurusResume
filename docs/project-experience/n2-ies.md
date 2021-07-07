@@ -4,9 +4,10 @@ title: Integrated Enterprise Solutions Ltd.
 sidebar_label: Project experience - IES
 description: Project experience in Integrated Enterprise Solutions Ltd.
 sidebar_position: 3
+custom_edit_url: null
 ---
 
-# IES
+# Integrated Enterprise Solutions Ltd. (IES)
 
 - Project
   - [BD][1]
@@ -17,7 +18,9 @@ sidebar_position: 3
 
 ---
 
-#### [BD](#BD)
+#### [BD](#bd)
+
+###### Department: BD (Building Department)
 
 - Major Role
 
@@ -28,23 +31,78 @@ sidebar_position: 3
 
 - Skill Set Related
   - C#
+  - ASP.NET
   - HTML, CSS, JavaScript
+  - Crystal Report
+  - MSSQL
 
 ---
 
-#### [DH](#DH)
+#### [DH](#dh)
+
+###### Department: DH (Department of Health)
+
+###### Project: OMMS
+
+- Major Role
+
+  - Get requirement from user
+
+- Skill Set Related
+  - C# (API), .NET
+  - AngularJS, jQuery
+  - HTML, CSS, JavaScript
+  - OpenXML
+  - MSSQL
 
 ---
 
-#### [GLS](#GLS)
+#### [GLS](#gls)
+
+###### Department: HAD (Home Affairs Department)
+
+###### Project: GLS
+
+- Major Role
+
+  - Enhance website according to requirement collected from SA & PM
+  - Design database structure
+
+- Skill Set Related
+  - C#
+  - ASP.NET
+  - HTML, CSS, JavaScript
+  - MSSQL
 
 ---
 
-#### [HKEX](#HKEX)
+#### [HKEX](#hkex)
+
+###### Department: HKEX
+
+- Major Role
+  - Enhance and develop searching page and export to Excel function
+  - Handle and enhance the search query for faster response
+  - Design and develop the template for export function
+- Skill Set Related
+  - C#
+  - ASP.NET
+  - HTML, CSS, JavaScript
+  - ClosedXML
+  - MSSQL
 
 ---
 
-#### [TD/MD](#TDMD)
+#### [TD/MD](#tdmd)
+
+###### Department: TD (Transport Department) / MD (Marine Department)
+
+- Major Role
+  - Develop testing system according to CR
+  - Debug the application by user response
+- Skill Set Related
+  - C#
+  - MSSQL
 
 ---
 

@@ -4,12 +4,13 @@ title: Bank of China
 sidebar_label: Project experience - Bank of China
 description: Project experience in Bank of China
 sidebar_position: 2
+custom_edit_url: null
 # slug: p/boc
 ---
 
 # Bank of China (BoC)
 
-#### [Image Processing Program](#IPP)
+#### [Image Processing Program](#ipp)
 
 - Major Role
 
