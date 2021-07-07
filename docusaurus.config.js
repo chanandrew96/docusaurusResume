@@ -26,16 +26,20 @@ module.exports = {
           items: [
             {
               label: "About Me",
-              href: "/docs/about-me/about-me"
+              href: "/docs/about-me/aboutMe"
             },
             {
               label: "Skill Set",
-              href: "/docs/about-me/skill-set"
+              href: "/docs/about-me/skillSet"
             },
             {
-              label: "Project Experience",
-              href: "/docs/project-experience/n0-projects"
+              label: "Education & Certifications",
+              href: "/docs/education-certifications/education"
             }
+            // {
+            //   label: "Project Experience",
+            //   href: "/docs/project-experience/n0-projects"
+            // }
           ]
         },
         {
@@ -43,16 +47,39 @@ module.exports = {
           position: "left",
           items: [
             {
-              label: "BoC",
+              label: "Projects Summary List",
+              href: "/docs/project-experience/projects"
+            },
+            {
+              label: "Bank of China",
               href: "/docs/project-experience/boc"
+              // doc: "boc"
+            },
+            {
+              label: "Integrated Enterprise Solutions Ltd.",
+              href: "/docs/project-experience/ies"
+            },
+            {
+              label: "Automated Systems (H.K.) Limited",
+              href: "/docs/project-experience/asl"
               // doc: "boc"
             }
           ]
         },
-        { to: "/contacts", label: "Contacts", position: "left" },
+        {
+          type: "doc",
+          docId: "contacts",
+          position: "left",
+          label: "Contacts"
+        },
+        // { to: "/docs/contacts", label: "Contacts", position: "left" },
         {
           href: "https://github.com/chanandrew96",
           label: "GitHub",
+          position: "right"
+        },
+        {
+          type: "search",
           position: "right"
         }
       ]
@@ -65,11 +92,19 @@ module.exports = {
           items: [
             {
               label: "About Me",
-              to: "/docs/about-me/about-me"
+              to: "/docs/about-me/aboutMe"
+            },
+            {
+              label: "Skill Set",
+              to: "/docs/about-me/skillSet"
             },
             {
               label: "Project",
-              to: "/docs/project-experience/n0-projects"
+              to: "/docs/project-experience/projects"
+            },
+            {
+              label: "Education & Certifications",
+              to: "/docs/education-certifications/education"
             }
           ]
         },
@@ -77,34 +112,42 @@ module.exports = {
           title: "Contact",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus"
+              label: "Contact",
+              to: "/docs/contacts"
             }
-          ]
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog"
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/chanandrew96"
-            }
+            // {
+            //   label: "Stack Overflow",
+            //   href: "https://stackoverflow.com/questions/tagged/docusaurus"
+            // },
+            // {
+            //   label: "Discord",
+            //   href: "https://discordapp.com/invite/docusaurus"
+            // },
+            // {
+            //   label: "Twitter",
+            //   href: "https://twitter.com/docusaurus"
+            // },
+            // {
+            //   label: "GitHub",
+            //   href: "https://github.com/chanandrew96"
+            // }
           ]
         }
+        // {
+        //   title: "More",
+        //   items: [
+        //     {
+        //       label: "Blog",
+        //       to: "/blog"
+        //     },
+        //     {
+        //       label: "GitHub",
+        //       href: "https://github.com/chanandrew96"
+        //     }
+        //   ]
+        // }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`
+      copyright: `Copyright © ${new Date().getFullYear()} Andrew Chan, Built with Docusaurus.`
     },
     prism: {
       theme: lightCodeTheme,
