@@ -13,6 +13,10 @@ module.exports = {
   organizationName: "Andrew Chan", // Usually your GitHub org/user name.
   projectName: "docusaurusResume", // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      // "light" | "dark"
+      defaultMode: "dark"
+    },
     navbar: {
       title: "Andrew Chan's Site",
       logo: {
@@ -67,6 +71,20 @@ module.exports = {
           ]
         },
         {
+          label: "Learning Path",
+          position: "left",
+          items: [
+            {
+              label: "API Testing",
+              href: "/docs/learning-path/testing-tools/api-testing"
+            },
+            {
+              label: "JavaScript Testing",
+              href: "/docs/learning-path/testing-tools/js-testing"
+            }
+          ]
+        },
+        {
           type: "doc",
           docId: "contacts",
           position: "left",
@@ -105,6 +123,19 @@ module.exports = {
             {
               label: "Education & Certifications",
               to: "/docs/education-certifications/education"
+            }
+          ]
+        },
+        {
+          title: "Learning Path",
+          items: [
+            {
+              label: "API Testing",
+              to: "/docs/learning-path/testing-tools/api-testing"
+            },
+            {
+              label: "JavaScript Testing",
+              href: "/docs/learning-path/testing-tools/js-testing"
             }
           ]
         },
