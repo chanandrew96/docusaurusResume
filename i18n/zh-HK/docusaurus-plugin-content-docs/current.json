@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "下一項",
+    "description": "The label for version current"
+  },
+  "sidebar.mySidebar.category.About Me": {
+    "message": "關於我",
+    "description": "The label for category About Me in sidebar mySidebar"
+  },
+  "sidebar.mySidebar.category.Project Experience": {
+    "message": "項目經驗",
+    "description": "The label for category Project Experience in sidebar mySidebar"
+  }
+}

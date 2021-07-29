@@ -9,7 +9,7 @@ module.exports = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "static/img/favicon.ico",
   organizationName: "Andrew Chan", // Usually your GitHub org/user name.
   projectName: "docusaurusResume", // Usually your repo name.
   themeConfig: {
@@ -21,7 +21,7 @@ module.exports = {
       title: "Andrew Chan's Site",
       logo: {
         alt: "My Site Logo",
-        src: "img/logo.svg"
+        src: "static/img/logo.svg"
       },
       items: [
         {
@@ -94,6 +94,10 @@ module.exports = {
         {
           href: "https://github.com/chanandrew96",
           label: "GitHub",
+          position: "right"
+        },
+        {
+          type: "localeDropdown",
           position: "right"
         },
         {
@@ -205,5 +209,19 @@ module.exports = {
         }
       }
     ]
-  ]
+  ],
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "zh-HK"],
+    localeConfigs: {
+      en: {
+        label: "English",
+        direction: "ltr"
+      },
+      "zh-HK": {
+        label: "繁體中文(香港)",
+        direction: "ltr"
+      }
+    }
+  }
 };

@@ -1,0 +1,58 @@
+{
+  "title": {
+    "message": "Andrew Chan的網站",
+    "description": "The title in the navbar"
+  },
+  "item.label.About Me": {
+    "message": "關於我",
+    "description": "Navbar item with label About Me"
+  },
+  "item.label.Project Experience": {
+    "message": "項目經驗",
+    "description": "Navbar item with label Project Experience"
+  },
+  "item.label.Learning Path": {
+    "message": "學習筆記",
+    "description": "Navbar item with label Learning Path"
+  },
+  "item.label.Contacts": {
+    "message": "聯絡方法",
+    "description": "Navbar item with label Contacts"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.Skill Set": {
+    "message": "技能",
+    "description": "Navbar item with label Skill Set"
+  },
+  "item.label.Education & Certifications": {
+    "message": "教育及相關學歷",
+    "description": "Navbar item with label Education & Certifications"
+  },
+  "item.label.Projects Summary List": {
+    "message": "項目經驗列表",
+    "description": "Navbar item with label Projects Summary List"
+  },
+  "item.label.Bank of China": {
+    "message": "中國銀行",
+    "description": "Navbar item with label Bank of China"
+  },
+  "item.label.Integrated Enterprise Solutions Ltd.": {
+    "message": "致達資訊科技有限公司",
+    "description": "Navbar item with label Integrated Enterprise Solutions Ltd."
+  },
+  "item.label.Automated Systems (H.K.) Limited": {
+    "message": "自動系統集團有限公司",
+    "description": "Navbar item with label Automated Systems (H.K.) Limited"
+  },
+  "item.label.API Testing": {
+    "message": "API測試",
+    "description": "Navbar item with label API Testing"
+  },
+  "item.label.JavaScript Testing": {
+    "message": "JavaScript測試",
+    "description": "Navbar item with label JavaScript Testing"
+  }
+}

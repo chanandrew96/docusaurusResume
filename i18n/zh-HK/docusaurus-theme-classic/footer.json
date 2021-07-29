@@ -1,0 +1,46 @@
+{
+  "link.title.About Me": {
+    "message": "關於我",
+    "description": "The title of the footer links column with title=About Me in the footer"
+  },
+  "link.title.Learning Path": {
+    "message": "學習筆記",
+    "description": "The title of the footer links column with title=Learning Path in the footer"
+  },
+  "link.title.Contact": {
+    "message": "聯絡方法",
+    "description": "The title of the footer links column with title=Contact in the footer"
+  },
+  "link.item.label.About Me": {
+    "message": "關於我",
+    "description": "The label of footer link with label=About Me linking to /docs/about-me/aboutMe"
+  },
+  "link.item.label.Skill Set": {
+    "message": "技能",
+    "description": "The label of footer link with label=Skill Set linking to /docs/about-me/skillSet"
+  },
+  "link.item.label.Project": {
+    "message": "項目經驗",
+    "description": "The label of footer link with label=Project linking to /docs/project-experience/projects"
+  },
+  "link.item.label.Education & Certifications": {
+    "message": "教育及相關學歷",
+    "description": "The label of footer link with label=Education & Certifications linking to /docs/education-certifications/education"
+  },
+  "link.item.label.API Testing": {
+    "message": "API測試",
+    "description": "The label of footer link with label=API Testing linking to /docs/learning-path/testing-tools/api-testing"
+  },
+  "link.item.label.JavaScript Testing": {
+    "message": "JavaScript測試",
+    "description": "The label of footer link with label=JavaScript Testing linking to /docs/learning-path/testing-tools/js-testing"
+  },
+  "link.item.label.Contact": {
+    "message": "聯絡方法",
+    "description": "The label of footer link with label=Contact linking to /docs/contacts"
+  },
+  "copyright": {
+    "message": "Copyright © 2021 Andrew Chan, Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}

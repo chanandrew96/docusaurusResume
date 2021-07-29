@@ -31,3 +31,25 @@ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+## i18n
+
+```console
+npm run start -- --locale zh-HK
+```
+
+You can change the i18n default to different local by this command.
+
+Reference to: https://docusaurus.io/zh-CN/docs/i18n/tutorial
+
+```console
+npm run write-translations -- --locale zh-cn
+```
+
+Initialize all translate files
+
+```console
+cp -r docs/** i18n/zh-HK/docusaurus-plugin-content-docs/current
+```
+
+Copy all files from docs for translate
