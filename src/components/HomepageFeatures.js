@@ -1,35 +1,60 @@
 import React from "react";
 import clsx from "clsx";
 import styles from "./HomepageFeatures.module.css";
+import Link from "@docusaurus/Link";
 
 const FeatureList = [
   {
-    title: "Easy to Use",
-    Svg: require("../../static/img/undraw_docusaurus_mountain.svg").default,
+    title: "Hello!",
+    // https://unsplash.com/photos/WHUDOzd5IYU?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+    Svg: require("../../static/img/homepage-img/adam-solomon-WHUDOzd5IYU-unsplash.jpg")
+      .default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Welcome to my site! Wanna know more
+        <Link
+          // className="button button--secondary button--lg"
+          to="/docs/about-me/aboutMe"
+        >
+          {" about me?"}
+        </Link>
       </>
     )
   },
   {
-    title: "Focus on What Matters",
-    Svg: require("../../static/img/undraw_docusaurus_tree.svg").default,
+    title: "What I do?",
+    // https://unsplash.com/photos/OqtafYT5kTw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+    Svg: require("../../static/img/homepage-img/ilya-pavlov-OqtafYT5kTw-unsplash.jpg")
+      .default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Let&apos;s check out what
+        <code>
+          <Link
+            // className="button button--secondary button--lg"
+            to="/docs/project-experience/projects"
+          >
+            {"projects"}
+          </Link>
+        </code>{" "}
+        I&apos;ve done!
       </>
     )
   },
   {
-    title: "Powered by React",
-    Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
+    title: "Contact Me!",
+    // https://unsplash.com/photos/5Ne6mMQtIdo?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+    Svg: require("../../static/img/homepage-img/melinda-gimpel-5Ne6mMQtIdo-unsplash.jpg")
+      .default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Wanna talk?
+        <Link
+          // className="button button--secondary button--lg"
+          to="/docs/contacts"
+        >
+          {"Contact me!"}
+        </Link>
       </>
     )
   }
@@ -39,7 +64,8 @@ function Feature({ Svg, title, description }) {
   return (
     <div className={clsx("col col--4")}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
+        <img className={styles.featureSvg} src={Svg} alt={title} />
+        {/* <Svg className={styles.featureSvg} alt={title} /> */}
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
@@ -53,11 +79,11 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        {/* <div className="row">
+        <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
-        </div> */}
+        </div>
       </div>
     </section>
   );

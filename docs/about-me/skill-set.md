@@ -34,6 +34,8 @@ custom_edit_url: null
 - Server
   - IIS, Tomcat
   - Schedule Job
+- Type speed
+  - English (46 WPM (215 CPM)) on https://www.livechat.com/typing-speed-test/#/
 
 <!-- ## [^c#]
 
